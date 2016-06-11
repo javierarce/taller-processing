@@ -1,5 +1,7 @@
 # Taller de Processing
 
+Documentación para el taller de Processing en Sandwich Mixto.
+
 #### Estructura del taller
 
 - Presentación
@@ -15,12 +17,43 @@
 - Programa de tipografía
 - Programa de tipografía
 - Programa de tipografía
-- Guardar imágenes
+- Exportar imágenes
 
+### Exportar imágenes
+
+```save(filename)```
+
+Saves an image from the display window. Append a file extension to the name of the file, to indicate the file format to be used: either TIFF (.tif), TARGA (.tga), JPEG (.jpg), or PNG (.png). If no extension is included in the filename, the image will save in TIFF format and .tif
+
+[consultar la referencia](https://processing.org/reference/save)
+
+### Exportar PDFs
+
+```
+import processing.pdf.*;
+
+void setup() {
+  size(400, 400);
+  noLoop();
+  beginRecord(PDF, "filename.pdf"); 
+}
+
+void draw() {
+  line(0, 0, width/2, height);
+
+  endRecord();
+}
+```
+
+[consultar la referencia](https://processing.org/reference/libraries/pdf)
 
 ### Ejercicios
 
 1. Dibujar 1000 círculos de tamaño aleatorio en una ventana de 500x500 píxeles.
+2. TBD
+3. TBD
+4. TBD
+5. TBD
 
 ### Programas
 
