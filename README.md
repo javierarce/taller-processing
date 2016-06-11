@@ -32,20 +32,26 @@
 
 #### size
 
+```size(width, height)```
+
 Defines the dimension of the display window width and height in units of pixels. In a program that has the setup() function, the size() function must be the first line of code inside setup().
 
 [consultar la referencia](https://processing.org/reference/size_.html)
 
 #### random
 
-`random(high)`
-`random(low, high)`
+```
+random(high)  
+random(low, high)
+```
 
 Función que genera números aleatorios. Si se especifica un único parámetro de entrada, `random` devolverá valores entre 0 y dicho número.
 Por ejemplo, `random(5)` devuelve valores entre 0 y 5 (no incluyendo a 5). Es decir, `random` puede devolver: 0, 1, 2, 3 o 4.
 En el caso de especificar dos valores, la función `random` devolverá números entre el menor valor y el mayor (sin incluir a este último).
 
 [consultar la referencia](https://processing.org/reference/random_.html)
+
+===
 
 - setup, draw
 - background, fill, stroke
@@ -60,7 +66,14 @@ En el caso de especificar dos valores, la función `random` devolverá números 
 
 ### Ayuda
 
-- Cómo buscar ayuda
+Si tienes alguna duda sobre el uso de alguna función de Processing, puedes hacer dos cosas:
+
+1. Buscar en la [referencia de Processing](https://processing.org/reference)
+2. Hacer click con el botón derecho del ratón sobre la función que quieres consultar y pinchar en 'Find in Reference'.
+
+![ayuda](https://github.com/javierarce/processing/blob/master/img/reference.png "Find in Reference")
+
+
 - Consejos a la hora de aprender a programar
 
 ### Programas
