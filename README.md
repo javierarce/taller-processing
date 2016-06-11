@@ -73,10 +73,8 @@ Defines the dimension of the display window width and height in units of pixels.
 
 #### random
 
-```
-random(high)  
-random(low, high)
-```
+```random(high)```
+```random(low, high)```
 
 Función que genera números aleatorios. Si se especifica un único parámetro de entrada, `random` devolverá valores entre 0 y dicho número.
 Por ejemplo, `random(5)` devuelve valores entre 0 y 5 (no incluyendo a 5). Es decir, `random` puede devolver: 0, 1, 2, 3 o 4.
