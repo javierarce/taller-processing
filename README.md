@@ -21,7 +21,7 @@ Documentación para el taller de Processing en Sandwich Mixto.
 
 ### Exportar imágenes
 
-```save(filename)```
+`save(filename)`
 
 Saves an image from the display window. Append a file extension to the name of the file, to indicate the file format to be used: either TIFF (.tif), TARGA (.tga), JPEG (.jpg), or PNG (.png). If no extension is included in the filename, the image will save in TIFF format and .tif
 
