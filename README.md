@@ -9,7 +9,36 @@ Documentación para el taller de Processing en Sandwich Mixto.
 - Qué es Processing
 - Ejemplos de cosas que se pueden hacer con Processing
 - Instalación de Processing
-- Primer programa (presentación de la ventana de Processing, cómo ejecutar y detener programas, qué es una función, qué son los parámetros, mensajes de error, encontrar ayuda sobre las funciones)
+
+### Elipses
+- Presentación de la ventana de Processing.
+- Cómo ejecutar y detener programas.
+- Valores por defecto en Processing.
+- Qué es una función y los parámetros.
+- Mensajes de error y warning.
+- Sistema de coordenadas.
+- Encontrar ayuda
+
+  ```ellipse(a, b, c, d);```
+
+### Cambiando el marco
+
+- Cambiar el tamaño de la ventana: 
+```size(500, 500);```
+
+- Cambiar colores de fondo:
+
+```fill(255, 100, 20);```
+```fill(40);```
+
+- Cambiar el tamaño de la línea:
+
+```strokeWeight(2);```
+
+- Borrar la pantalla con un color:
+```background(0);```
+
+
 - Segundo programa (funciones setup y draw, uso de mouseX, mouseY, mousePressed, `if`, background, fill, stroke)
 - Tercer programa (variables y bucles for)
 - Cuarto programa (random, pixels)
@@ -18,6 +47,25 @@ Documentación para el taller de Processing en Sandwich Mixto.
 - Programa de tipografía
 - Programa de tipografía
 - Exportar imágenes
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Exportar imágenes
 
