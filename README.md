@@ -19,11 +19,12 @@ Documentación para el taller de Processing en Sandwich Mixto.
 - Sistema de coordenadas.
 - Encontrar ayuda
 
-  ```ellipse(a, b, c, d);```
+```ellipse(a, b, c, d);```
 
 ### Cambiando el marco
 
 - Cambiar el tamaño de la ventana: 
+
 ```size(500, 500);```
 
 - Cambiar colores de fondo:
@@ -36,6 +37,7 @@ Documentación para el taller de Processing en Sandwich Mixto.
 ```strokeWeight(2);```
 
 - Borrar la pantalla con un color:
+- 
 ```background(0);```
 
 
