@@ -25,20 +25,20 @@ Documentación para el taller de Processing en Sandwich Mixto.
 
 - Cambiar el tamaño de la ventana: 
 
-```size(500, 500);```
+`size(500, 500);`
 
 - Cambiar colores de fondo:
 
-```fill(255, 100, 20);```
-```fill(40);```
+`fill(255, 100, 20);`
+`fill(40);`
 
 - Cambiar el tamaño de la línea:
 
-```strokeWeight(2);```
+`strokeWeight(2);`
 
 - Borrar la pantalla con un color:
-- 
-```background(0);```
+
+`background(0);`
 
 
 - Segundo programa (funciones setup y draw, uso de mouseX, mouseY, mousePressed, `if`, background, fill, stroke)
