@@ -11,11 +11,11 @@ Documentación para el taller de Processing en Sandwich Mixto.
 - Instalación de Processing
 - Estructura del taller
 - [Elipses](#Elipses)
-- Valores por defecto
-- Variables
-- width y height
-- Bucles `while` y `for`
-- Condicionales 
+- [Valores por defecto](#valores-por-defecto)
+- [Variables](#variables)
+- [Width y Height](#width-y-height)
+- [Bucles `while` y `for`](#bucles-while-y-for)
+- [Condicionales](#condicionales)
 - `setup` y `draw`
 - arrays?
 - Imágenes y PGraphics
@@ -34,7 +34,7 @@ De la Wikipedia:
 
 - https://www.kickstarter.com/projects/860869947/stringandandloop-knitting-craft-with-code?token=11442054
 
-### 1. Elipses
+### Elipses
 
 - Primer programa
 
@@ -48,7 +48,7 @@ De la Wikipedia:
 - Sistema de coordenadas.
 - Encontrar ayuda
 
-### 2. Valores por defecto
+### Valores por defecto
 
 - Cambiar el tamaño de la ventana: 
 
