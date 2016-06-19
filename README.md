@@ -4,25 +4,27 @@ Documentación para el taller de Processing en Sandwich Mixto.
 
 #### Estructura del taller
 
-- Presentación
+- Presentación.
 - ¿De qué va el taller? Motivación sobre el taller. ¿Qué espero que aprendáis?
-- Qué es Processing
-- Ejemplos de cosas que se pueden hacer con Processing
-- Instalación de Processing
-- Estructura del taller
+- Qué es Processing.
+- Ejemplos de cosas que se pueden hacer con Processing.
+- Instalación de Processing.
+- Estructura del taller.
+
+### Contenido
+
 - [Elipses](#Elipses)
 - [Valores por defecto](#valores-por-defecto)
 - [Variables](#variables)
 - [Width y Height](#width-y-height)
 - [Bucles `while` y `for`](#bucles-while-y-for)
 - [Condicionales](#condicionales)
-- `setup` y `draw`
-- arrays?
-- Imágenes y PGraphics
-- Escribir en la pantalla
-- Exportar imágenes
-- Exportar PDFs
-
+- [`setup` y `draw`](#setup-y-draw)
+- [arrays](#arrays)
+- [Imágenes y PGraphics](#imagenes-y-pgraphics)
+- [Escribir en la pantalla](#escribir-en-la-pantalla)
+- [Exportar imágenes](#exportar-imagenes)
+- [Exportar PDFs](#exportar-pdfs)
 
 ### 0. ¿Qué es Processing?
 
@@ -34,6 +36,8 @@ De la Wikipedia:
 
 - https://www.kickstarter.com/projects/860869947/stringandandloop-knitting-craft-with-code?token=11442054
 
+---
+
 ### Elipses
 
 - Primer programa
@@ -42,11 +46,11 @@ De la Wikipedia:
 
 - Presentación de la ventana de Processing.
 - Cómo ejecutar y detener programas.
-- Valores por defecto en Processing.
+- Valores por defecto.
 - Qué es una función y los parámetros.
 - Mensajes de error y warning.
 - Sistema de coordenadas.
-- Encontrar ayuda
+- Cómo encontrar ayuda.
 
 ### Valores por defecto
 
@@ -60,9 +64,15 @@ De la Wikipedia:
   `fill(255, 100, 20);`  
   `fill(40);`
 
+- Cambiar el color de la línea:
+
+  `stroke(255, 100, 20);`  
+  `stroke(40);`
+
 - Cambiar el tamaño de la línea:
 
   `strokeWeight(2);`  
+  `strokeWeight(10);`  
 
 - Borrar la pantalla con un color:
 
@@ -72,35 +82,28 @@ De la Wikipedia:
 
 - Orden de ejecución del código
 - Otras primitivas geométricas: `rect`, `triangle`, `quad`.
-- *Ejercicio*: dibujar una casa, una cara, un perro, etc.
+- *Ejercicio*: usando primitivas geométricas dibujar X.
 
-### 3. Variables
+### Variables
 
 - Ejemplo de círculos concéntricos.
-- Qué es una variable.
+- Qué son las variables.
 - Para qué se usan.
-- Tipos de variables:
+- Tipos de variables en Processing:
 
   `boolean, byte, char, color, double, float, int, long`  
 
 - Declaración y asignación de variables
 
+### width y height
 
-- Segundo programa (funciones setup y draw, uso de mouseX, mouseY, mousePressed, `if`, background, fill, stroke)
-- Tercer programa (variables y bucles for)
-- Cuarto programa (random, pixels)
-- Ejercicio
-- Programa de tipografía
-- Programa de tipografía
-- Programa de tipografía
-- Exportar imágenes
+- Explicación de estas variables del sistema.
 
-### 4. width y height
+### Bucles `while` y `for`
 
-- Explicación de estas variables
-
-### 5. Bucles `while` y `for`
-
+- ¿Qué son los bucles?
+- ¿Qué son los bucles?
+– ...
 - ¿Qué son los bucles?
 
 - Bucle `while`  
@@ -126,7 +129,7 @@ De la Wikipedia:
 
 - *Ejercicio*: Dibujar 100 círculos de tamaño aleatorio en una ventana de 500x500 píxeles.
 
-### 6. Condicionales (`if`)
+### Condicionales (`if`)
 
   ```if (i == 1) {
     fill(255);
@@ -139,19 +142,22 @@ De la Wikipedia:
    ```  
 - *Ejercicio*: Modificar el ejercicio anterior: dibujar 5 círculos, pintar el tercer círculo de color rojo
 
-### 7. `setup` y `draw`
+### `setup` y `draw`
 
 - setup, draw: diferencias y uso
 - mouseX, mouseY
 - mousePressed
 - pmouseX, pmouseY
 - key, keyPressed
+
 - Ejemplo de una animación
 - Ejercicio: TBD
 
-### 8. arrays?
+### Arrays
 
-### 9. Imágenes y PGraphics
+TBD
+
+### Imágenes y PGraphics
 
 - Cargar una imagen:
 
@@ -182,7 +188,7 @@ De la Wikipedia:
   }
   ```
 
-### 10. Escribir en la pantalla
+### Escribir en la pantalla
 
   ```
   PFont font;
@@ -221,17 +227,19 @@ void draw() {
 
 [consultar la referencia](https://processing.org/reference/libraries/pdf)
 
-### Programas
+### Proyectos
 
-- Programa de dibujo
-- Tipografía peluda
-- Pixels (?)
+- [Proyecto 01](https://github.com/javierarce/processing/blob/master/proyectos/proyecto_01.pde)
+- [Proyecto 02](https://github.com/javierarce/processing/blob/master/proyectos/proyecto_02.pde)
+- [Proyecto 03](https://github.com/javierarce/processing/blob/master/proyectos/proyecto_03.pde)
 
-### Funciones
+---
+
+### Funciones utilizadas
 
 #### size
 
-```size(width, height)```
+`size(width, height)`  
 
 Defines the dimension of the display window width and height in units of pixels. In a program that has the setup() function, the size() function must be the first line of code inside setup().
 
@@ -239,8 +247,8 @@ Defines the dimension of the display window width and height in units of pixels.
 
 #### random
 
-```random(high)```
-```random(low, high)```
+`random(high)`  
+`random(low, high)`  
 
 Función que genera números aleatorios. Si se especifica un único parámetro de entrada, `random` devolverá valores entre 0 y dicho número.
 Por ejemplo, `random(5)` devuelve valores entre 0 y 5 (no incluyendo a 5). Es decir, `random` puede devolver: 0, 1, 2, 3 o 4.
@@ -248,7 +256,7 @@ En el caso de especificar dos valores, la función `random` devolverá números 
 
 [consultar la referencia](https://processing.org/reference/random_.html)
 
-===
+---
 
 ### Ayuda
 
@@ -259,16 +267,7 @@ Si tienes alguna duda sobre el uso de alguna función de Processing, puedes hace
 
 ![ayuda](https://github.com/javierarce/processing/blob/master/img/reference.png "Find in Reference")
 
-
 - Consejos a la hora de aprender a programar
-
-### Programas
-
-#### Primer programa:
-
-```ellipse(50, 50, 80, 80)```
-
-#### Segundo programa:
 
 ### Referencias
 
