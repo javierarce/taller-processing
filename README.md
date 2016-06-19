@@ -10,6 +10,20 @@ Documentación para el taller de Processing en Sandwich Mixto.
 - Ejemplos de cosas que se pueden hacer con Processing
 - Instalación de Processing
 
+- Estructura del taller
+- Elipses
+- Valores por defecto
+- Variables
+- width y height
+- Bucles `while` y `for`
+- Condicionales 
+- `setup` y `draw`
+- arrays?
+- Imágenes y PGraphics
+- Escribir en la pantalla
+- Exportar imágenes
+- Exportar PDFs
+
 ### 1. Elipses
 
 - Primer programa
