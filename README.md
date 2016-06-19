@@ -9,9 +9,8 @@ Documentación para el taller de Processing en Sandwich Mixto.
 - Qué es Processing
 - Ejemplos de cosas que se pueden hacer con Processing
 - Instalación de Processing
-
 - Estructura del taller
-- Elipses
+- [Elipses](#Elipses)
 - Valores por defecto
 - Variables
 - width y height
@@ -23,6 +22,17 @@ Documentación para el taller de Processing en Sandwich Mixto.
 - Escribir en la pantalla
 - Exportar imágenes
 - Exportar PDFs
+
+
+### 0. ¿Qué es Processing?
+
+De la Wikipedia: 
+
+> Processing es un lenguaje de programación y entorno de desarrollo integrado de código abierto basado en Java, de fácil utilización, y que sirve como medio para la enseñanza y producción de proyectos multimedia e interactivos de diseño digital. Fue iniciado por Ben Fry y Casey Reas a partir de reflexiones en el Aesthetics and Computation Group del MIT Media Lab dirigido por John Maeda.
+
+[https://www.processing.org](https://www.processing.org)
+
+- https://www.kickstarter.com/projects/860869947/stringandandloop-knitting-craft-with-code?token=11442054
 
 ### 1. Elipses
 
@@ -269,6 +279,9 @@ Si tienes alguna duda sobre el uso de alguna función de Processing, puedes hace
 - [Libros de Processing](https://processing.org/books)
 - [Nature of Code](http://natureofcode.com)
 - [Curso online: The Nature of Code](https://www.kadenze.com/courses/the-nature-of-code/info)
+- [Subreddit de Processing](https://www.reddit.com/r/processing/)
+- [Wiki oficial de Processing](https://github.com/processing/processing/wiki)
+- [Google Group oficial](https://groups.google.com/forum/#!forum/processingjs)
 
 #### Libros
 
