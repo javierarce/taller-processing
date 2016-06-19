@@ -1,3 +1,5 @@
+![ayuda](https://github.com/javierarce/processing/blob/master/img/hands.png)
+
 # Taller de Processing
 
 Documentación para el taller de Processing en Sandwich Mixto.
