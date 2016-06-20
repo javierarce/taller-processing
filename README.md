@@ -107,11 +107,11 @@ De la Wikipedia:
 
 ### Bucles `while` y `for`
 
-- ¿Qué son los bucles?
-- ¿Qué son los bucles?
-– ...
-- ¿Qué son los bucles?
-- Bucle `while`  
+- ¿Qué son los bucles?  
+- ¿Qué son los bucles?  
+– ...  
+- ¿Qué son los bucles?  
+- Bucle `while` 
 
   ```
   int i = 0;
