@@ -16,7 +16,7 @@ Documentación para el taller de Processing en Sandwich Mixto.
 ### Contenido
 
 - [Elipses](#Elipses)
-- [Valores por defecto](#valores-por-defecto)
+- [Estilos básicos](#estilos-basicos)
 - [Variables](#variables)
 - [Width y Height](#width-y-height)
 - [Bucles `while` y `for`](#bucles-while-y-for)
@@ -27,6 +27,10 @@ Documentación para el taller de Processing en Sandwich Mixto.
 - [Escribir en la pantalla](#escribir-en-la-pantalla)
 - [Exportar imágenes](#exportar-imagenes)
 - [Exportar PDFs](#exportar-pdfs)
+- [Proyectos](#proyectos)
+- [Ayuda](#ayuda)
+- [Referencias](#referencias)
+- [Libros](#libros)
 
 ### 0. ¿Qué es Processing?
 
@@ -54,7 +58,7 @@ De la Wikipedia:
 - Sistema de coordenadas.
 - Cómo encontrar ayuda.
 
-### Valores por defecto
+###  Estilos básicos
 
 - Cambiar el tamaño de la ventana: 
 
@@ -237,29 +241,6 @@ void draw() {
 
 ---
 
-### Funciones utilizadas
-
-#### size
-
-`size(width, height)`  
-
-Defines the dimension of the display window width and height in units of pixels. In a program that has the setup() function, the size() function must be the first line of code inside setup().
-
-[consultar la referencia](https://processing.org/reference/size_.html)
-
-#### random
-
-`random(high)`  
-`random(low, high)`  
-
-Función que genera números aleatorios. Si se especifica un único parámetro de entrada, `random` devolverá valores entre 0 y dicho número.
-Por ejemplo, `random(5)` devuelve valores entre 0 y 5 (no incluyendo a 5). Es decir, `random` puede devolver: 0, 1, 2, 3 o 4.
-En el caso de especificar dos valores, la función `random` devolverá números entre el menor valor y el mayor (sin incluir a este último).
-
-[consultar la referencia](https://processing.org/reference/random_.html)
-
----
-
 ### Ayuda
 
 Si tienes alguna duda sobre el uso de alguna función de Processing, puedes hacer dos cosas:
@@ -275,21 +256,18 @@ Si tienes alguna duda sobre el uso de alguna función de Processing, puedes hace
 
 - [Processing](http://processing.org)
 - [Documentación de Processing](https://processing.org/reference)
-- [Coding Rainbow](https://www.youtube.com/user/shiffman)
-- [Patreon de Shiffman](https://www.patreon.com/codingrainbow)
-- [Libros de Processing](https://processing.org/books)
-- [Nature of Code](http://natureofcode.com)
-- [Curso online: The Nature of Code](https://www.kadenze.com/courses/the-nature-of-code/info)
-- [Subreddit de Processing](https://www.reddit.com/r/processing/)
 - [Wiki oficial de Processing](https://github.com/processing/processing/wiki)
 - [Google Group oficial](https://groups.google.com/forum/#!forum/processingjs)
+- [Subreddit de Processing](https://www.reddit.com/r/processing/)
+- [Coding Rainbow](https://www.youtube.com/user/shiffman)
+- [Patreon de Shiffman](https://www.patreon.com/codingrainbow)
+- [Nature of Code](http://natureofcode.com)
+- [Curso online: The Nature of Code](https://www.kadenze.com/courses/the-nature-of-code/info)
 
 #### Libros
 
-- Processing: A Programming Handbook for Visual Designers
-- Make: Getting Started with Processing, Second Edition
-- Learning Processing, Second Edition: A Beginner's Guide to Programming Images, Animation, and Interaction
-
-### DUMP
-
-- Learning is hard: http://taeyoonchoi.com/2014/12/3771
+- [Lista de libros de Processing](https://processing.org/books)
+- [Processing: A Programming Handbook for Visual Designers](https://www.amazon.es/gp/product/B008TV535E/ref=dp-kindle-redirect?ie=UTF8&btkr=1)
+- [Make: Getting Started with Processing](https://www.amazon.es/Make-Processing-Hands--Introduction-Interactive/dp/1457187086/ref=sr_1_cc_3?s=aps&ie=UTF8&qid=1466407241&sr=1-3-catcorr&keywords=Make%3A+Getting+Started+with+Processing)
+- [Learning Processing: A Beginner's Guide to Programming Images, Animation, and Interaction](https://www.amazon.es/Learning-Processing-Beginners-Programming-Interaction-ebook/dp/B015P636IG/ref=sr_1_1?s=foreign-books&ie=UTF8&qid=1466407269&sr=1-1&keywords=Learning+Processing)
+- [The Nature of Code](https://www.amazon.es/Nature-Code-English-Daniel-Shiffman-ebook/dp/B00BPFT8D4/ref=pd_sim_351_1?ie=UTF8&dpID=51CwJ-7tDJL&dpSrc=sims&preST=_UX300_PJku-sticker-v3%2CTopRight%2C0%2C-44_OU30_AC_UL160_SR130%2C160_&refRID=CCM5P30B3Z6GCXCAYZ6M)
