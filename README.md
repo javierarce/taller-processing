@@ -92,8 +92,26 @@ De la Wikipedia:
 
 ### Variables
 
+Las variables nos permiten almacenar valores para ser utilizados posteriormente.
+Antes de poder usarlas, las variables han de ser declaradas:
+
+```
+int i = 100; // primero "declaramos" la variable y le asignamos el valor entero 100
+ellipse(i, i/2, 50, 10); // ahora usamos el valor almacenado para centrar la elipse en el punto (100, 50)
+```
+
+Es posible cambiar el valor de una variable: 
+
+```
+int j = 100;
+rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en el punto (100, 100)
+
+j = j + 40;
+rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en el punto (140, 140)
+
+```
+
 - Ejemplo de círculos concéntricos.
-- Qué son las variables.
 - Para qué se usan.
 - Tipos de variables en Processing:
 
