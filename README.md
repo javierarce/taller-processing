@@ -137,7 +137,8 @@ De la Wikipedia:
 
 ### Condicionales (`if`)
 
-  ```if (i == 1) {
+  ```
+  if (i == 1) {
     fill(255);
   } else if (i == 3) {
     fill(10, 50, 20);
@@ -146,6 +147,7 @@ De la Wikipedia:
   }
   ellipse(10, 20, 10, 50);
    ```  
+   
 - *Ejercicio*: Modificar el ejercicio anterior: dibujar 5 círculos, pintar el tercer círculo de color rojo
 
 ### `setup` y `draw`
