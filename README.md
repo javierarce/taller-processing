@@ -111,10 +111,10 @@ De la Wikipedia:
 - ¿Qué son los bucles?
 – ...
 - ¿Qué son los bucles?
-
 - Bucle `while`  
 
-  ```int i = 0;
+  ```
+  int i = 0;
   while (i < 10) {
     ellipse(i * 10, 250, 100, 100);
     i = i + 1;
