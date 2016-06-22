@@ -284,6 +284,8 @@ Si tienes alguna duda sobre el uso de alguna función de Processing, puedes hace
 - [Nature of Code](http://natureofcode.com)
 - [Curso online: The Nature of Code](https://www.kadenze.com/courses/the-nature-of-code/info)
 
+![people](https://github.com/javierarce/processing/blob/master/img/people.png)
+
 #### Libros
 
 - [Lista de libros de Processing](https://processing.org/books)
