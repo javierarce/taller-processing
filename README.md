@@ -1,4 +1,4 @@
-![ayuda](https://github.com/javierarce/processing/blob/master/img/hands.png)
+![ayuda](https://github.com/javierarce/processing/blob/master/img/processing.png)
 
 # Taller de Processing
 
