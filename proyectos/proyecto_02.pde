@@ -1,8 +1,8 @@
-boolean[][]points = new boolean[680][680];
+PVector[]points = new PVector[1000];
+int i = 0;
 
 void setup() {
   size(680, 680);
-  smooth();
 
   background(255);
   stroke(1);
@@ -10,17 +10,19 @@ void setup() {
 
 void draw() {
   if (mousePressed) {
-    line(mouseX, mouseY, pmouseX, pmouseY);
-    points[mouseX][mouseY] = true;
+    points[i] = new PVector(mouseX, mouseY);
+
+    if (i < points.length) {
+      i = i +1;
+    }
   }
 
   background(255);
 
-  for (int i = 0; i < width; i++) {
-    for (int j = 0; j < height; j++) {
-      if (points[i][j]) {
-        line(i, j, i + random(-10, 10), j + random(-10, 10));
-      }
+  for (int i = 0; i < points.length; i++) {
+    if (points[i] != null) {
+      PVector point = points[i];
+      line(point.x, point.y, point.x + random(-10, 10), point.y + random(-10, 10));
     }
   }
 }
