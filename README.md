@@ -30,10 +30,10 @@ Documentación para el taller de Processing en Sandwich Mixto.
 - [Proyectos](#proyectos)
 - [Ayuda](#ayuda)
 - [Referencias](#referencias)
-- [Personas](#personas)
+- [Personas Altamente Interesantes](#personas-altamente-interesantes)
 - [Libros](#libros)
 
-### 0. ¿Qué es Processing?
+### ¿Qué es Processing?
 
 De la Wikipedia: 
 
@@ -58,12 +58,15 @@ De la Wikipedia:
 - Mensajes de error y warning.
 - Sistema de coordenadas.
 - Cómo encontrar ayuda.
+- Otras primitivas geométricas: `rect`, `triangle`, `quad`.
+
+---
 
 ###  Estilos básicos
 
 - Cambiar el tamaño de la ventana: 
 
-  `size(500, 500);`  
+  `size(500, 200);`  
 
 - Explicación sobre el sistema de colores.
 - Cambiar colores de fondo:
@@ -88,11 +91,12 @@ De la Wikipedia:
   `background(50, 40, 55);`
 
 - Orden de ejecución del código
-- Otras primitivas geométricas: `rect`, `triangle`, `quad`.
 
 #### *Ejercicio*:  
 
 Usando primitivas geométricas y cambiando los colores, dibuja tu letra favorita.
+
+---
 
 ### Variables
 
@@ -123,9 +127,13 @@ rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en
 
 - Declaración y asignación de variables
 
+---
+
 ### width y height
 
 - Explicación de estas variables del sistema.
+
+---
 
 ### Bucles `while` y `for`
 
@@ -159,6 +167,8 @@ rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en
 
 Dibuja 100 círculos de tamaño aleatorio en una ventana de 500x500 píxeles.
 
+---
+
 ### Condicionales (`if`)
 
   ```
@@ -186,6 +196,8 @@ Modifica el ejercicio anterior: dibuja 5 círculos, pinta el tercer círculo de 
 
 - Ejemplo de una animación
 - Ejercicio: TBD
+
+---
 
 ### Arrays
 
@@ -239,6 +251,7 @@ ellipse(150, height/2, planetSizes[0], planetSizes[0]);
 ellipse(250, height/2, planetSizes[1], planetSizes[1]);  
 ellipse(350, height/2, planetSizes[2], planetSizes[2]);
 ```
+---
 
 ### Imágenes y PGraphics
 
@@ -270,6 +283,7 @@ ellipse(350, height/2, planetSizes[2], planetSizes[2]);
     image(pg, 51, 30);
   }
   ```
+---
 
 ### Escribir en la pantalla
 
@@ -282,13 +296,17 @@ ellipse(350, height/2, planetSizes[2], planetSizes[2]);
   text("word", 10, 50);
   ```
 
+---
+
 ### Exportar imágenes
 
 `save(filename)`
 
 Saves an image from the display window. Append a file extension to the name of the file, to indicate the file format to be used: either TIFF (.tif), TARGA (.tga), JPEG (.jpg), or PNG (.png). If no extension is included in the filename, the image will save in TIFF format and .tif
 
-[consultar la referencia](https://processing.org/reference/save)
+[Consulta la referencia](https://processing.org/reference/save)
+
+---
 
 ### Exportar PDFs
 
@@ -308,13 +326,7 @@ void draw() {
 }
 ```
 
-[consultar la referencia](https://processing.org/reference/libraries/pdf)
-
-### Proyectos
-
-- [Proyecto 01](https://github.com/javierarce/processing/blob/master/proyectos/proyecto_01.pde)
-- [Proyecto 02](https://github.com/javierarce/processing/blob/master/proyectos/proyecto_02.pde)
-- [Proyecto 03](https://github.com/javierarce/processing/blob/master/proyectos/proyecto_03.pde)
+[Consulta la referencia](https://processing.org/reference/libraries/pdf)
 
 ---
 
@@ -329,6 +341,8 @@ Si tienes alguna duda sobre el uso de alguna función de Processing, puedes hace
 
 - Consejos a la hora de aprender a programar
 
+---
+
 ### Referencias
 
 - [Processing](http://processing.org)
@@ -341,7 +355,9 @@ Si tienes alguna duda sobre el uso de alguna función de Processing, puedes hace
 - [Nature of Code](http://natureofcode.com)
 - [Curso online: The Nature of Code](https://www.kadenze.com/courses/the-nature-of-code/info)
 
-### Personas
+---
+
+### Personas altamente interesantes
 
 ![people](https://github.com/javierarce/processing/blob/master/img/people.png)
 
@@ -358,6 +374,8 @@ Lista de personas interesantes a las que seguir:
 - [Thricedotted](https://twitter.com/thricedotted)
 - [Zach Lieberman](https://twitter.com/zachlieberman)
 
+---
+
 #### Libros
 
 - [Lista de libros de Processing](https://processing.org/books)
@@ -365,3 +383,12 @@ Lista de personas interesantes a las que seguir:
 - [Make: Getting Started with Processing](https://www.amazon.es/Make-Processing-Hands--Introduction-Interactive/dp/1457187086/ref=sr_1_cc_3?s=aps&ie=UTF8&qid=1466407241&sr=1-3-catcorr&keywords=Make%3A+Getting+Started+with+Processing)
 - [Learning Processing: A Beginner's Guide to Programming Images, Animation, and Interaction](https://www.amazon.es/Learning-Processing-Beginners-Programming-Interaction-ebook/dp/B015P636IG/ref=sr_1_1?s=foreign-books&ie=UTF8&qid=1466407269&sr=1-1&keywords=Learning+Processing)
 - [The Nature of Code](https://www.amazon.es/Nature-Code-English-Daniel-Shiffman-ebook/dp/B00BPFT8D4/ref=pd_sim_351_1?ie=UTF8&dpID=51CwJ-7tDJL&dpSrc=sims&preST=_UX300_PJku-sticker-v3%2CTopRight%2C0%2C-44_OU30_AC_UL160_SR130%2C160_&refRID=CCM5P30B3Z6GCXCAYZ6M)
+
+---
+
+## Proyectos
+
+- [Proyecto 01](https://github.com/javierarce/processing/blob/master/proyectos/proyecto_01.pde)
+- [Proyecto 02](https://github.com/javierarce/processing/blob/master/proyectos/proyecto_02.pde)
+- [Proyecto 03](https://github.com/javierarce/processing/blob/master/proyectos/proyecto_03.pde)
+
