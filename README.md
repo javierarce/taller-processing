@@ -15,7 +15,7 @@ Documentación para el taller de Processing en Sandwich Mixto.
 
 ### Contenido
 
-- [Elipses](#Elipses)
+- [Elipses](#elipses)
 - [Estilos básicos](#estilos-basicos)
 - [Variables](#variables)
 - [Width y Height](#width-y-height)
@@ -30,6 +30,7 @@ Documentación para el taller de Processing en Sandwich Mixto.
 - [Proyectos](#proyectos)
 - [Ayuda](#ayuda)
 - [Referencias](#referencias)
+- [Personas](#personas)
 - [Libros](#libros)
 
 ### 0. ¿Qué es Processing?
@@ -88,7 +89,10 @@ De la Wikipedia:
 
 - Orden de ejecución del código
 - Otras primitivas geométricas: `rect`, `triangle`, `quad`.
-- *Ejercicio*: usando primitivas geométricas dibujar X.
+
+#### *Ejercicio*:  
+
+Usando primitivas geométricas y cambiando los colores, dibuja tu letra favorita.
 
 ### Variables
 
@@ -151,7 +155,9 @@ rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en
 
   `random(100);`
 
-- *Ejercicio*: Dibujar 100 círculos de tamaño aleatorio en una ventana de 500x500 píxeles.
+#### *Ejercicio*:  
+
+Dibuja 100 círculos de tamaño aleatorio en una ventana de 500x500 píxeles.
 
 ### Condicionales (`if`)
 
@@ -166,7 +172,9 @@ rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en
   ellipse(10, 20, 10, 50);
    ```  
    
-- *Ejercicio*: Modificar el ejercicio anterior: dibujar 5 círculos, pintar el tercer círculo de color rojo
+#### *Ejercicio*:  
+
+Modifica el ejercicio anterior: dibuja 5 círculos, pinta el tercer círculo de color morado.
 
 ### `setup` y `draw`
 
@@ -181,7 +189,56 @@ rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en
 
 ### Arrays
 
-TBD
+- Definir un array (de números enteros):  
+
+  ```
+  int[] favoriteNumbers = new int[5];
+  ```
+
+- Si sabemos los valores de antemano, podemos hacerlo así:
+
+  ```
+  int[] favoriteNumbers = { 10, 200, 4, -9, 2 };
+  ```
+
+- Para acceder a un determinado valor:  
+
+  ```
+  birdAges[10] = 100;
+  ```
+
+- Conocer el número de elementos que tiene un array es sencillo:  
+  ```
+  float[] myCoolArray = new float[23];
+
+  println(myCoolArray.length); // esto imprimirá 23 en la consola de Processing
+  ```
+
+- Así se pueden recorrer todos los valores de un array:  
+
+  ```
+  for (int i = 0; i < starBrightness.length; i++) { 
+    // aquí va nuestro código
+  }
+  ```
+
+#### *Ejercicio*:  
+
+Modifica el siguiente programa añadiendo los planetas que faltan. Usa un bucle para dibujarlos en la pantalla y pinta cada planeta usando colores extraídos de un array.
+
+```
+size(500, 500);
+
+int[] planetSizes = new int[3];
+
+planetSizes[0] = 10;
+planetSizes[1] = 15;
+planetSizes[2] = 25;
+
+ellipse(150, height/2, planetSizes[0], planetSizes[0]);  
+ellipse(250, height/2, planetSizes[1], planetSizes[1]);  
+ellipse(350, height/2, planetSizes[2], planetSizes[2]);
+```
 
 ### Imágenes y PGraphics
 
@@ -284,7 +341,22 @@ Si tienes alguna duda sobre el uso de alguna función de Processing, puedes hace
 - [Nature of Code](http://natureofcode.com)
 - [Curso online: The Nature of Code](https://www.kadenze.com/courses/the-nature-of-code/info)
 
+### Personas
+
 ![people](https://github.com/javierarce/processing/blob/master/img/people.png)
+
+Lista de personas interesantes a las que seguir:
+
+- [Allison Parrish](https://twitter.com/aparrish)
+- [Ben Fry](https://twitter.com/ben_fry)
+- [Daniel Shiffman](https://twitter.com/shiffman)
+- [Jessica Rosenkrantz](https://twitter.com/nervous_jessica)
+- [Kate Compton](https://twitter.com/GalaxyKate)
+- [Katie Rose](https://twitter.com/katierosepipkin)
+- [Raquel Meyers](https://twitter.com/raquelmeyers)
+- [Taeyoon Choi](https://twitter.com/tchoi8)
+- [Thricedotted](https://twitter.com/thricedotted)
+- [Zach Lieberman](https://twitter.com/zachlieberman)
 
 #### Libros
 
