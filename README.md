@@ -1,4 +1,4 @@
-![ayuda](https://github.com/javierarce/processing/blob/master/img/processing.png)
+![ayuda](https://github.com/javierarce/processing/blob/master/img/header.png?v=2)
 
 # Taller de Processing
 
@@ -134,6 +134,8 @@ rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en
 - Explicación de estas variables del sistema.
 
 ---
+
+![ayuda](https://github.com/javierarce/processing/blob/master/img/loop.png?v=2)
 
 ### Bucles `while` y `for`
 
@@ -359,7 +361,7 @@ Si tienes alguna duda sobre el uso de alguna función de Processing, puedes hace
 
 ### Personas altamente interesantes
 
-![people](https://github.com/javierarce/processing/blob/master/img/people.png)
+![people](https://github.com/javierarce/processing/blob/master/img/people.png?v=2)
 
 Lista de personas interesantes a las que seguir:
 
