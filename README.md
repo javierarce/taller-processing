@@ -291,6 +291,8 @@ ellipse(350, height/2, planetSizes[2], planetSizes[2]);
   ```
 ---
 
+![writing](https://github.com/javierarce/processing/blob/master/img/text.png?v=1)
+
 ### Escribir en la pantalla
 
   ```
