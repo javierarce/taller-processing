@@ -45,6 +45,8 @@ De la Wikipedia:
 
 ---
 
+![elipses](https://github.com/javierarce/processing/blob/master/img/ellipses.png?v=2)
+
 ### Elipses
 
 - Primer programa
