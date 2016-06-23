@@ -45,7 +45,7 @@ De la Wikipedia:
 
 ---
 
-![elipses](https://github.com/javierarce/processing/blob/master/img/ellipses.png?v=2)
+![elipses](https://github.com/javierarce/processing/blob/master/img/ellipses.png?v=3)
 
 ### Elipses
 
