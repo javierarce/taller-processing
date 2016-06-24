@@ -175,7 +175,7 @@ Dibuja 100 círculos de tamaño aleatorio en una ventana de 500x500 píxeles.
 
 ---
 
-![if](https://github.com/javierarce/processing/blob/master/img/conditional.png?v=5)
+![if](https://github.com/javierarce/processing/blob/master/img/conditional.png?v=6)
 
 ### Condicionales (`if`)
 
