@@ -1,6 +1,6 @@
-![ayuda](https://github.com/javierarce/processing/blob/master/img/header.png?v=2)
-
 # Taller de Processing
+
+![header](https://github.com/javierarce/processing/blob/master/img/header.png?v=2)
 
 Documentación para el taller de Processing en Sandwich Mixto.
 
@@ -43,9 +43,9 @@ Algunos usos de Processing:
 
 ---
 
-![elipses](https://github.com/javierarce/processing/blob/master/img/ellipses.png?v=5)
-
 ### Elipses
+
+![elipses](https://github.com/javierarce/processing/blob/master/img/ellipses.png?v=5)
 
 - Primer programa
 
@@ -145,9 +145,9 @@ rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en
 
 ---
 
-![loop](https://github.com/javierarce/processing/blob/master/img/loop.png?v=2)
-
 ### Bucles `while` y `for`
+
+![loop](https://github.com/javierarce/processing/blob/master/img/loop.png?v=2)
 
 - ¿Qué son los bucles?  
 - ¿Qué son los bucles?  
@@ -181,9 +181,9 @@ Dibuja 100 círculos de tamaño aleatorio en una ventana de 500x500 píxeles.
 
 ---
 
-![if](https://github.com/javierarce/processing/blob/master/img/conditional.png?v=8)
-
 ### Condicionales
+
+![if](https://github.com/javierarce/processing/blob/master/img/conditional.png?v=8)
 
   ```
   if (i == 1) {
@@ -266,9 +266,9 @@ ellipse(350, height/2, planetSizes[2], planetSizes[2]);
 ```
 ---
 
-![pgraphics](https://github.com/javierarce/processing/blob/master/img/pgraphics.png?v=2)
-
 ### Imágenes y PGraphics
+
+![pgraphics](https://github.com/javierarce/processing/blob/master/img/pgraphics.png?v=2)
 
 - Cargar una imagen:
 
@@ -300,9 +300,9 @@ ellipse(350, height/2, planetSizes[2], planetSizes[2]);
   ```
 ---
 
-![writing](https://github.com/javierarce/processing/blob/master/img/text.png?v=1)
-
 ### Escribir en la pantalla
+
+![writing](https://github.com/javierarce/processing/blob/master/img/text.png?v=1)
 
   ```
   PFont font;
@@ -325,9 +325,9 @@ Saves an image from the display window. Append a file extension to the name of t
 
 ---
 
-![pdf](https://github.com/javierarce/processing/blob/master/img/pdf.png?v=1)
-
 ### Exportar PDFs
+
+![pdf](https://github.com/javierarce/processing/blob/master/img/pdf.png?v=1)
 
 ```
 import processing.pdf.*;
@@ -395,9 +395,9 @@ Lista de personas interesantes a las que seguir:
 
 ---
 
-![books](https://github.com/javierarce/processing/blob/master/img/books.png?v=1)
-
 #### Libros
+
+![books](https://github.com/javierarce/processing/blob/master/img/books.png?v=1)
 
 - [Lista de libros de Processing](https://processing.org/books)
 - [Processing: A Programming Handbook for Visual Designers](https://www.amazon.es/gp/product/B008TV535E/ref=dp-kindle-redirect?ie=UTF8&btkr=1)
