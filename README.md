@@ -259,6 +259,8 @@ ellipse(350, height/2, planetSizes[2], planetSizes[2]);
 ```
 ---
 
+![pgraphics](https://github.com/javierarce/processing/blob/master/img/pgraphics.png?v=1)
+
 ### Imágenes y PGraphics
 
 - Cargar una imagen:
