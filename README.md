@@ -45,7 +45,7 @@ De la Wikipedia:
 
 ---
 
-![elipses](https://github.com/javierarce/processing/blob/master/img/ellipses.png?v=3)
+![elipses](https://github.com/javierarce/processing/blob/master/img/ellipses.png?v=4)
 
 ### Elipses
 
@@ -173,7 +173,7 @@ Dibuja 100 círculos de tamaño aleatorio en una ventana de 500x500 píxeles.
 
 ---
 
-![if](https://github.com/javierarce/processing/blob/master/img/conditional.png?v=2)
+![if](https://github.com/javierarce/processing/blob/master/img/conditional.png?v=3)
 
 ### Condicionales (`if`)
 
@@ -259,7 +259,7 @@ ellipse(350, height/2, planetSizes[2], planetSizes[2]);
 ```
 ---
 
-![pgraphics](https://github.com/javierarce/processing/blob/master/img/pgraphics.png?v=1)
+![pgraphics](https://github.com/javierarce/processing/blob/master/img/pgraphics.png?v=2)
 
 ### Imágenes y PGraphics
 
