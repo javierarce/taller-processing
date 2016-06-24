@@ -4,17 +4,9 @@
 
 Documentación para el taller de Processing en Sandwich Mixto.
 
-#### Estructura del taller
-
-- Presentación.
-- ¿De qué va el taller? Motivación sobre el taller. ¿Qué espero que aprendáis?
-- Qué es Processing.
-- Ejemplos de cosas que se pueden hacer con Processing.
-- Instalación de Processing.
-- Estructura del taller.
-
 ### Contenido
 
+- [Qué es Processing](#que-es-processing)
 - [Elipses](#elipses)
 - [Estilos básicos](#estilos-basicos)
 - [Variables](#variables)
@@ -41,7 +33,13 @@ De la Wikipedia:
 
 [https://www.processing.org](https://www.processing.org)
 
-- https://www.kickstarter.com/projects/860869947/stringandandloop-knitting-craft-with-code?token=11442054
+Algunos usos de Processing:
+
+- [{string&&loop} Knitting Craft with Code;](https://www.kickstarter.com/projects/860869947/stringandandloop-knitting-craft-with-code?token=11442054)
+- [Identidad de MIT Media Lab](http://www.creativeapplications.net/processing/mit-media-lab-identity-processing)
+- [Identidad para COP15](http://www.creativeapplications.net/processing/cop15-identity-processing/)
+- [cellCycle](https://n-e-r-v-o-u-s.com/cellCycle/)
+- [Lista de ejemplos en la web de Processing](https://processing.org/exhibition)
 
 ---
 
@@ -66,14 +64,14 @@ De la Wikipedia:
 
 ###  Estilos básicos
 
-- Cambiar el tamaño de la ventana: 
+- Cambiar el tamaño de la ventana es muy sencillo. La siguiente función nos permite definir la anchura y la altura, respectivamente:  
 
   `size(500, 200);`  
 
-- Explicación sobre el sistema de colores.
-- Cambiar colores de fondo:
+- El color de fondo de una figura se puede modificar usando `fill`. Si usamos la versión con tres parámetros, podemos definir un color RGB asignado valores entre 0 y 255. 
+Si solo especificamos un parámetro, generaremos un color de la escala de grises.
 
-  `fill(255, 100, 20);`  
+  `fill(255, 100, 20);`
   `fill(40);`
 
 - Cambiar el color de la línea:
@@ -102,8 +100,11 @@ Usando primitivas geométricas y cambiando los colores, dibuja tu letra favorita
 
 ### Variables
 
-Las variables nos permiten almacenar valores para ser utilizados posteriormente.
-Antes de poder usarlas, las variables han de ser declaradas:
+Las variables nos permiten almacenar valores, de forma que estos puedan ser utilizados posteriormente. También nos permiten 
+almacenar el resultado de operaciones aritméticas o el resultado de ejecutar una función.  
+
+Antes de poder usarlas, las variables han de ser declaradas, es decir, debemos decirle a Processing que queremos crear una variable con un nombre determinado
+y que va a almacenar un cierto tipo de dato.
 
 ```
 int i = 100; // primero "declaramos" la variable y le asignamos el valor entero 100
@@ -127,19 +128,24 @@ rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en
 
   `boolean, byte, char, color, double, float, int, long`  
 
-- Declaración y asignación de variables
+- Declaración y asignación de variables.
 
 ---
 
 ### width y height
 
+![width-height](https://github.com/javierarce/processing/blob/master/img/width-height.png?v=1)
 
-- Processing ofrece las variables `width` y `height` cuyos valores iniciales serán los que hayamos definido al usar el método `size`.
-- Otras variables de sistema son: [`focused`](https://processing.org/reference/focused.html), [`key`](https://processing.org/reference/key.html) y [`frameCount`](https://processing.org/reference/frameCount.html).
+- Processing ofrece dos variables `width` y `height` cuyos valores iniciales serán los que hayamos definido tras usar el método `size`.
+- Además de estas dos, existen otras variables de sistema:   
+
+  - [`focused`](https://processing.org/reference/focused.html)  
+  - [`key`](https://processing.org/reference/key.html)  
+  - [`frameCount`](https://processing.org/reference/frameCount.html)
 
 ---
 
-![ayuda](https://github.com/javierarce/processing/blob/master/img/loop.png?v=2)
+![loop](https://github.com/javierarce/processing/blob/master/img/loop.png?v=2)
 
 ### Bucles `while` y `for`
 
@@ -147,7 +153,7 @@ rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en
 - ¿Qué son los bucles?  
 – ...  
 - ¿Qué son los bucles?  
-- Bucle `while` 
+- Bucle `while`:  
 
   ```
   int i = 0;
@@ -157,7 +163,7 @@ rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en
   }
   ```
 
-- Bucle `for`  
+- Bucle `for`:  
 
   ```
   for (int i = 0; i < 10; i++) {
@@ -196,14 +202,13 @@ Modifica el ejercicio anterior: dibuja 5 círculos, pinta el tercer círculo de 
 
 ### `setup` y `draw`
 
-- setup, draw: diferencias y uso
-- mouseX, mouseY
-- mousePressed
-- pmouseX, pmouseY
-- key, keyPressed
+- setup, draw: diferencias y uso.
+- `mouseX`, `mouseY`.
+- `mousePressed`.
+- `pmouseX`, `pmouseY`.
+- `key`, `keyPressed`.
 
 - Ejemplo de una animación
-- Ejercicio: TBD
 
 ---
 
@@ -328,12 +333,11 @@ import processing.pdf.*;
 void setup() {
   size(400, 400);
   noLoop();
-  beginRecord(PDF, "filename.pdf"); 
+  beginRecord(PDF, "filename.pdf");  
 }
 
 void draw() {
   line(0, 0, width/2, height);
-
   endRecord();
 }
 ```
@@ -366,6 +370,7 @@ Si tienes alguna duda sobre el uso de alguna función de Processing, puedes hace
 - [Patreon de Shiffman](https://www.patreon.com/codingrainbow)
 - [Nature of Code](http://natureofcode.com)
 - [Curso online: The Nature of Code](https://www.kadenze.com/courses/the-nature-of-code/info)
+- [Hello Processing](http://hello.processing.org/editor/)
 
 ---
 
@@ -400,7 +405,6 @@ Lista de personas interesantes a las que seguir:
 
 ## Proyectos
 
-- [Proyecto 01](https://github.com/javierarce/processing/blob/master/proyectos/proyecto_01.pde)
-- [Proyecto 02](https://github.com/javierarce/processing/blob/master/proyectos/proyecto_02.pde)
-- [Proyecto 03](https://github.com/javierarce/processing/blob/master/proyectos/proyecto_03.pde)
-
+* [Pincel sencillo](https://github.com/javierarce/processing/blob/master/proyectos/proyecto_01.pde)
+* [Pincel avanzado](https://github.com/javierarce/processing/blob/master/proyectos/proyecto_02.pde)
+* [Técnica de creación de tipografía](https://github.com/javierarce/processing/blob/master/proyectos/proyecto_03.pde)
