@@ -6,24 +6,24 @@ Documentación para el taller de Processing en Sandwich Mixto.
 
 ### Contenido
 
-- [Qué es Processing](#que-es-processing)
+- [Qué es Processing](#qué-es-processing)
 - [Elipses](#elipses)
-- [Estilos básicos](#estilos-basicos)
+- [Estilos básicos](#estilos-básicos)
 - [Variables](#variables)
 - [Width y Height](#width-y-height)
 - [Bucles `while` y `for`](#bucles-while-y-for)
 - [Condicionales](#condicionales)
 - [`setup` y `draw`](#setup-y-draw)
-- [arrays](#arrays)
-- [Imágenes y PGraphics](#imagenes-y-pgraphics)
+- [Arrays](#arrays)
+- [Imágenes y PGraphics](#imágenes-y-pgraphics)
 - [Escribir en la pantalla](#escribir-en-la-pantalla)
-- [Exportar imágenes](#exportar-imagenes)
+- [Exportar imágenes](#exportar-imágenes)
 - [Exportar PDFs](#exportar-pdfs)
-- [Proyectos](#proyectos)
 - [Ayuda](#ayuda)
 - [Referencias](#referencias)
 - [Personas Altamente Interesantes](#personas-altamente-interesantes)
 - [Libros](#libros)
+- [Proyectos](#proyectos)
 
 ### ¿Qué es Processing?
 
@@ -183,7 +183,7 @@ Dibuja 100 círculos de tamaño aleatorio en una ventana de 500x500 píxeles.
 
 ![if](https://github.com/javierarce/processing/blob/master/img/conditional.png?v=8)
 
-### Condicionales (`if`)
+### Condicionales
 
   ```
   if (i == 1) {
