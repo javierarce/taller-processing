@@ -133,7 +133,9 @@ rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en
 
 ### width y height
 
-- Explicación de estas variables del sistema.
+
+- Processing ofrece las variables `width` y `height` cuyos valores iniciales serán los que hayamos definido al usar el método `size`.
+- Otras variables de sistema son: [`focused`](https://processing.org/reference/focused.html), [`key`](https://processing.org/reference/key.html) y [`frameCount`](https://processing.org/reference/frameCount.html).
 
 ---
 
