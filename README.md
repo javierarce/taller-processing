@@ -393,6 +393,8 @@ Lista de personas interesantes a las que seguir:
 
 ---
 
+![books](https://github.com/javierarce/processing/blob/master/img/books.png?v=1)
+
 #### Libros
 
 - [Lista de libros de Processing](https://processing.org/books)
