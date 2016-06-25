@@ -372,7 +372,7 @@ Saves an image from the display window. Append a file extension to the name of t
 
 ![pdf](https://github.com/javierarce/processing/blob/master/img/pdf.png?v=1)
 
-```
+```js
 import processing.pdf.*;
 
 void setup() {
