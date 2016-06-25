@@ -17,6 +17,7 @@ Documentación para el taller de Processing en Sandwich Mixto.
 - [Arrays](#arrays)
 - [Imágenes y PGraphics](#imágenes-y-pgraphics)
 - [Escribir en la pantalla](#escribir-en-la-pantalla)
+- [Teclado y ratón](#teclado-y-ratón)
 - [Exportar imágenes](#exportar-imágenes)
 - [Exportar PDFs](#exportar-pdfs)
 - [Ayuda](#ayuda)
@@ -264,6 +265,46 @@ ellipse(150, height/2, planetSizes[0], planetSizes[0]);
 ellipse(250, height/2, planetSizes[1], planetSizes[1]);  
 ellipse(350, height/2, planetSizes[2], planetSizes[2]);
 ```
+---
+
+### Teclado y ratón
+
+- Detectar la pulsación de una tecla:  
+
+```
+void setup () {
+  size(500, 500);
+}
+
+void draw () {
+  if (keyPressed) {
+    if (key == 'a') {
+      background(255, 0, 0);
+    } else if (key == 'b') {
+      background(0, 255, 0);
+    } else {
+      background(0, 0, 255);
+    }
+  }
+}
+```
+
+- Detectar la pulsación del ratón:  
+
+```
+void setup () {
+  size(500, 500);
+}
+
+void draw () {
+  if (mousePressed) {
+    background(255, 0, 0);
+  } else {
+    background(0);
+  }
+}
+```
+
 ---
 
 ### Imágenes y PGraphics
