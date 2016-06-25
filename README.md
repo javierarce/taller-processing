@@ -114,13 +114,12 @@ ellipse(i, i/2, 50, 10); // ahora usamos el valor almacenado para centrar la eli
 
 Es posible cambiar el valor de una variable: 
 
-```
+```js
 int j = 100;
 rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en el punto (100, 100)
 
 j = j + 40;
 rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en el punto (140, 140)
-
 ```
 
 - Ejemplo de círculos concéntricos.
@@ -156,7 +155,7 @@ rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en
 - ¿Qué son los bucles?  
 - Bucle `while`:  
 
-  ```
+  ```js
   int i = 0;
   while (i < 10) {
     ellipse(i * 10, 250, 100, 100);
@@ -166,7 +165,7 @@ rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en
 
 - Bucle `for`:  
 
-  ```
+  ```js
   for (int i = 0; i < 10; i++) {
     ellipse(i * 10, 250, 100, 100);
   }
@@ -186,7 +185,7 @@ Dibuja 100 círculos de tamaño aleatorio en una ventana de 500x500 píxeles.
 
 ![if](https://github.com/javierarce/processing/blob/master/img/conditional.png?v=8)
 
-  ```
+  ```js
   if (i == 1) {
     fill(255);
   } else if (i == 3) {
@@ -217,24 +216,24 @@ Modifica el ejercicio anterior: dibuja 5 círculos, pinta el tercer círculo de 
 
 - Definir un array (de números enteros):  
 
-  ```
+  ```js
   int[] favoriteNumbers = new int[5];
   ```
 
 - Si sabemos los valores de antemano, podemos hacerlo así:
 
-  ```
+  ```js
   int[] favoriteNumbers = { 10, 200, 4, -9, 2 };
   ```
 
 - Para acceder a un determinado valor:  
 
-  ```
+  ```js
   birdAges[10] = 100;
   ```
 
 - Conocer el número de elementos que tiene un array es sencillo:  
-  ```
+  ```js
   float[] myCoolArray = new float[23];
 
   println(myCoolArray.length); // esto imprimirá 23 en la consola de Processing
@@ -252,7 +251,7 @@ Modifica el ejercicio anterior: dibuja 5 círculos, pinta el tercer círculo de 
 
 Modifica el siguiente programa añadiendo los planetas que faltan. Usa un bucle para dibujarlos en la pantalla y pinta cada planeta usando colores extraídos de un array.
 
-```
+```js
 size(500, 500);
 
 int[] planetSizes = new int[3];
@@ -273,7 +272,7 @@ ellipse(350, height/2, planetSizes[2], planetSizes[2]);
 
 - Detectar la pulsación de una tecla:  
 
-```
+```js
 void setup () {
   size(500, 500);
 }
@@ -293,7 +292,7 @@ void draw () {
 
 - Detectar la pulsación del ratón:  
 
-```
+```js
 void setup () {
   size(500, 500);
 }
@@ -315,7 +314,7 @@ void draw () {
 
 - Cargar una imagen:
 
-  ```
+  ```js
   PImage img;
   img = loadImage("laDefense.jpg");
   image(img, 0, 0);
@@ -323,7 +322,7 @@ void draw () {
 
 - Usar PGraphics:
 
-  ```
+  ```js
   PGraphics pg;
   
   void setup() {
@@ -347,10 +346,8 @@ void draw () {
 
 ![writing](https://github.com/javierarce/processing/blob/master/img/text.png?v=1)
 
-  ```
+  ```js
   PFont font;
-  // The font must be located in the sketch's 
-  // "data" directory to load successfully
   font = createFont("LetterGothicStd.ttf", 32);
   textFont(font);
   text("word", 10, 50);
@@ -361,8 +358,6 @@ void draw () {
 ### Exportar imágenes
 
 `save(filename)`
-
-Saves an image from the display window. Append a file extension to the name of the file, to indicate the file format to be used: either TIFF (.tif), TARGA (.tga), JPEG (.jpg), or PNG (.png). If no extension is included in the filename, the image will save in TIFF format and .tif
 
 [Consulta la referencia](https://processing.org/reference/save)
 
