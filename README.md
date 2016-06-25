@@ -269,6 +269,8 @@ ellipse(350, height/2, planetSizes[2], planetSizes[2]);
 
 ### Teclado y ratón
 
+![keyboard](https://github.com/javierarce/processing/blob/master/img/keyboard.png?v=1)
+
 - Detectar la pulsación de una tecla:  
 
 ```
