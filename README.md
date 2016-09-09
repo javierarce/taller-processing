@@ -46,7 +46,7 @@ Algunos usos de Processing:
 
 ### Elipses
 
-![elipses](https://github.com/javierarce/processing/blob/master/img/ellipses.png?v=5)
+![elipses](img/ellipses.png?v=5)
 
 - Primer programa
 
@@ -134,7 +134,7 @@ rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en
 
 ### width y height
 
-![width-height](https://github.com/javierarce/processing/blob/master/img/width-height.png?v=1)
+![width-height](img/width-height.png?v=1)
 
 - Processing ofrece dos variables `width` y `height` cuyos valores iniciales serán los que hayamos definido tras usar el método `size`.
 - Además de estas dos, existen otras variables de sistema:   
@@ -147,7 +147,7 @@ rect(j, j, 100, 200); // este rectángulo tiene la esquina superior izquierda en
 
 ### Bucles `while` y `for`
 
-![loop](https://github.com/javierarce/processing/blob/master/img/loop.png?v=2)
+![loop](img/loop.png?v=2)
 
 - ¿Qué son los bucles?  
 - ¿Qué son los bucles?  
@@ -183,7 +183,7 @@ Dibuja 100 círculos de tamaño aleatorio en una ventana de 500x500 píxeles.
 
 ### Condicionales
 
-![if](https://github.com/javierarce/processing/blob/master/img/conditional.png?v=8)
+![if](img/conditional.png?v=8)
 
   ```js
   if (i == 1) {
@@ -268,7 +268,7 @@ ellipse(350, height/2, planetSizes[2], planetSizes[2]);
 
 ### Teclado y ratón
 
-![keyboard](https://github.com/javierarce/processing/blob/master/img/keyboard.png?v=2)
+![keyboard](img/keyboard.png?v=2)
 
 - Detectar la pulsación de una tecla:  
 
@@ -310,7 +310,7 @@ void draw () {
 
 ### Imágenes y PGraphics
 
-![pgraphics](https://github.com/javierarce/processing/blob/master/img/pgraphics.png?v=2)
+![pgraphics](img/pgraphics.png?v=2)
 
 - Cargar una imagen:
 
@@ -344,7 +344,7 @@ void draw () {
 
 ### Escribir en la pantalla
 
-![writing](https://github.com/javierarce/processing/blob/master/img/text.png?v=1)
+![writing](img/text.png?v=1)
 
   ```js
   PFont font;
@@ -365,7 +365,7 @@ void draw () {
 
 ### Exportar PDFs
 
-![pdf](https://github.com/javierarce/processing/blob/master/img/pdf.png?v=1)
+![pdf](img/pdf.png?v=1)
 
 ```js
 import processing.pdf.*;
@@ -393,7 +393,7 @@ Si tienes alguna duda sobre el uso de alguna función de Processing, puedes hace
 1. Buscar en la [referencia de Processing](https://processing.org/reference)
 2. Hacer click con el botón derecho del ratón sobre la función que quieres consultar y pinchar en 'Find in Reference'.
 
-![ayuda](https://github.com/javierarce/processing/blob/master/img/reference.png "Find in Reference")
+![ayuda](img/reference.png "Find in Reference")
 
 - Consejos a la hora de aprender a programar
 
@@ -416,7 +416,7 @@ Si tienes alguna duda sobre el uso de alguna función de Processing, puedes hace
 
 ### Personas altamente interesantes
 
-![people](https://github.com/javierarce/processing/blob/master/img/people.png?v=2)
+![people](img/people.png?v=2)
 
 Lista de personas interesantes a las que seguir:
 
@@ -435,7 +435,7 @@ Lista de personas interesantes a las que seguir:
 
 #### Libros
 
-![books](https://github.com/javierarce/processing/blob/master/img/books.png?v=1)
+![books](img/books.png?v=1)
 
 - [Lista de libros de Processing](https://processing.org/books)
 - [Processing: A Programming Handbook for Visual Designers](https://www.amazon.es/gp/product/B008TV535E/ref=dp-kindle-redirect?ie=UTF8&btkr=1)
