@@ -1,6 +1,6 @@
 # Taller de Processing
 
-![header](https://github.com/javierarce/processing/blob/master/img/header.png?v=2)
+![header](img/header.png?v=2)
 
 Documentación para el taller de Processing en Sandwich Mixto.
 
